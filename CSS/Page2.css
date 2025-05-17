@@ -1,0 +1,149 @@
+body {
+  font-family: Bangers, arial;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background-image: url(Files/vaigai-kallazhagar.jpg);
+}
+.header {
+  background-color: white;
+  height: 85px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 2px white;
+  z-index: 100;
+  display: flex;
+  border-bottom: solid 2px #f9f503;
+}
+.left-section {
+  width: 400px;
+  display: flex;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+}
+.logo-img {
+  height: 70px;
+  width: 70px;
+}
+.tamilnadu-fest {
+  text-align: left;
+  font-family: "Bangers-Regular", sans-serif;
+  font-family: Bangers, arial;
+  font-size: 26px;
+  font-weight: 400;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.tamilnadu-fest-span {
+  color: #d68307;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-family: Bangers, arial;
+  font-weight: 400;
+}
+.tamilnadu-fest-span2 {
+  color: #c4d607;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-family: Bangers, arial;
+  font-weight: 400;
+}
+.tamilnadu-fest-span3 {
+  color: #2ad607;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  font-family: Bangers, arial;
+}
+.header-but-img {
+  width: 40px;
+  height: 40px;
+}
+.header-button {
+  margin-top: 7px;
+  padding: 20px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 30px;
+  font-family: Bangers, arial;
+  background-color: white;
+  color: #2ad607;
+  border: solid 2px #f6980a;
+  margin-left: 25px;
+  transition: background-color, color 0.15s;
+  cursor: pointer;
+}
+.header-button:hover {
+  background-color: #f6980a;
+  color: white;
+}
+.search-bar-div {
+  height: 70px;
+  border-bottom: solid 2px #f79708;
+  display: flex;
+}
+.left-section1 {
+  flex: 1;
+  display: flex;
+}
+.right-section1 {
+  flex: 1;
+  display: flex;
+}
+.search-p {
+  display: block;
+  font-size: 35px;
+  color: #2ad607;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  background-color: white;
+  width: 140px;
+}
+.search-button {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 25px;
+  font-family: Bangers, arial;
+  background-color: rgba(255, 255, 255, 0.774);
+  color: #f6980a;
+  border: solid 2px #2ad607;
+  margin-left: 25px;
+  transition: background-color, color 0.15s;
+  margin-bottom: 10px;
+}
+.search-button:hover {
+  background-color: #2ad607;
+  color: white;
+  border: none;
+}
+.event-table {
+  height: 900px;
+  width: 1150px;
+  font-size: 27px;
+  font-family: Bangers, arial;
+  margin-top: 20px;
+  text-align: center;
+  border: solid 2px white;
+  border-style: none;
+}
+tr {
+  background-color: rgba(255, 255, 255, 0.88);
+  color: rgb(18, 72, 119);
+  transition: background-color, color 0.15s;
+}
+tr:hover {
+  background-color: rgb(242, 249, 249);
+}

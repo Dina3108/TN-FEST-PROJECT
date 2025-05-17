@@ -1,0 +1,130 @@
+body {
+  font-family: Bangers, arial;
+  padding-top: 80px;
+  background-image: url(Files/0d7586cdb65a3ef81903350a3e1bb652.jpg);
+}
+.header {
+  background-color: rgba(255, 255, 255, 0.904);
+  height: 85px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 2px white;
+  z-index: 100;
+  display: flex;
+  border-bottom: solid 2px #f9f503;
+}
+.left-section {
+  width: 400px;
+  display: flex;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+}
+.logo-img {
+  height: 70px;
+  width: 70px;
+}
+.tamilnadu-fest {
+  text-align: left;
+  font-family: "Bangers-Regular", sans-serif;
+  font-family: Bangers, arial;
+  font-size: 26px;
+  font-weight: 400;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.tamilnadu-fest-span {
+  color: #d68307;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-family: Bangers, arial;
+  font-weight: 400;
+}
+.tamilnadu-fest-span2 {
+  color: #c4d607;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-family: Bangers, arial;
+  font-weight: 400;
+}
+.tamilnadu-fest-span3 {
+  color: #2ad607;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  font-family: Bangers, arial;
+}
+.header-but-img {
+  width: 40px;
+  height: 40px;
+}
+.header-button {
+  margin-top: 7px;
+  padding: 20px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 30px;
+  font-family: Bangers, arial;
+  background-color: white;
+  color: #2ad607;
+  border: solid 2px #f6980a;
+  margin-left: 25px;
+  transition: background-color, color 0.15s;
+  cursor: pointer;
+}
+.header-button:hover {
+  background-color: #f6980a;
+  color: white;
+}
+.Event-Title-p {
+  font-size: 30px;
+}
+.body-div {
+  display: flex;
+}
+.temple-invitation-image {
+  height: 500px;
+  width: 500px;
+}
+.details-div {
+  flex: 1;
+  height: 700px;
+  background-color: rgb(255, 243, 5);
+  font-family: Salsa, arial;
+  border: solid 1px black;
+  margin: 25px;
+  border-radius: 25px;
+  color: rgb(20, 4, 245);
+}
+.body-2-div {
+  display: flex;
+  margin-top: 20px;
+  font-family: Salsa, arial;
+}
+.Entertaining-events {
+  flex: 1;
+  background-color: rgb(244, 237, 243);
+  height: 500px;
+  border: solid 1px black;
+  margin: 25px;
+  border-radius: 25px;
+  color: rgb(215, 12, 242);
+}
+.location-details {
+  flex: 1;
+  background-color: rgb(14, 7, 242);
+  height: 700px;
+  border: solid 1px black;
+  margin: 25px;
+  border-radius: 25px;
+  color: white;
+}

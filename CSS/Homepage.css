@@ -1,0 +1,162 @@
+body {
+  font-family: Bangers, arial;
+  padding-top: 100px;
+  background-image: url(Files/vaigai-kallazhagar.jpg);
+}
+.header {
+  background-color: white;
+  height: 85px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 2px greenyellow;
+  z-index: 100;
+  display: flex;
+}
+.left-section {
+  width: 400px;
+  display: flex;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+}
+.logo-img {
+  height: 70px;
+  width: 70px;
+}
+.tamilnadu-fest {
+  text-align: left;
+  font-family: "Bangers-Regular", sans-serif;
+  font-family: Bangers, arial;
+  font-size: 26px;
+  font-weight: 400;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.tamilnadu-fest-span {
+  color: #d68307;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-family: Bangers, arial;
+  font-weight: 400;
+}
+.tamilnadu-fest-span2 {
+  color: #c4d607;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-family: Bangers, arial;
+  font-weight: 400;
+}
+.tamilnadu-fest-span3 {
+  color: #2ad607;
+  font-family: "Bangers-Regular", sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  font-family: Bangers, arial;
+}
+.header-but-img {
+  width: 40px;
+  height: 40px;
+}
+.header-button {
+  padding: 20px;
+  height: 70px;
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 30px;
+  font-family: Bangers, arial;
+  background-color: white;
+  color: #2ad607;
+  border: solid 2px #f6980a;
+  margin-left: 25px;
+  transition: background-color, color 0.15s;
+  cursor: pointer;
+}
+.header-button:hover {
+  background-color: #f6980a;
+  color: white;
+}
+.festival-search-input {
+  width: 650px;
+  height: 50px;
+  border: solid 2px orange;
+  border-radius: 80px;
+  font-family: Bangers, arial;
+  padding-left: 100px;
+  font-size: 50px;
+  padding: 20px;
+  padding-top: 20px;
+}
+.festival-search-input::placeholder {
+  text-align: center;
+  color: #e95858;
+}
+.festival-search-input:hover {
+  border: solid 2px #e95858;
+  color: orange;
+  font-size: 50px;
+}
+.body-div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.video-div {
+  flex: 1;
+}
+.login-input-div {
+  height: 400px;
+  width: 500px;
+  border-radius: 30px;
+  background-color: #ffb87e;
+  margin-left: 50px;
+}
+.username-div {
+  height: 75px;
+  width: 400px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.username-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 30px;
+}
+.username-input {
+  height: 70px;
+  width: 280px;
+  border-radius: 30px;
+  font-size: 30px;
+  font-family: Bangers, arial;
+  border: solid 2px #15d607;
+}
+.username-input::placeholder {
+  color: #dbea09;
+}
+.login-but {
+  padding: 20px;
+  font-size: 30px;
+  margin-top: 30px;
+  border-radius: 30px;
+  font-family: Bangers, arial;
+  color: #dbea09;
+  border: solid 2px #15d607;
+  background-color: white;
+  transition: color, background-color 0.15s;
+  width: 125px;
+}
+.login-but:hover {
+  background-color: #fff703;
+  color: #15d607;
+  border: none;
+}
